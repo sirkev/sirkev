@@ -63,12 +63,16 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=sirkev&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats"/>
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=sirkev&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak"/>
+  <a href="https://github.com/sirkev">
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=sirkev&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=sirkev&layout=compact&langs_count=8&theme=algolia"/>
+  </a>
 </p>
 
 <p align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sirkev&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=sirkev&theme=algolia&hide_border=true" alt="GitHub Streak"/>
+  </a>
 </p>
 
 ---
@@ -76,11 +80,11 @@
 ## 🚀 Featured Projects
 
 <p align="center">
-  <a href="https://github.com/SynchronizeLabs/washhub">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=SynchronizeLabs&repo=washhub&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" alt="WashHub"/>
-  </a>
   <a href="https://github.com/sirkev/reVCDOS">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=sirkev&repo=reVCDOS&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" alt="reVCDOS"/>
+    <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=sirkev&repo=reVCDOS&theme=algolia" alt="reVCDOS"/>
+  </a>
+  <a href="https://github.com/sirkev/laundry_landing">
+    <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=sirkev&repo=laundry_landing&theme=algolia" alt="Laundry Landing"/>
   </a>
 </p>
 
