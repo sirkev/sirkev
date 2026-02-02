@@ -1,0 +1,38 @@
+name: Update Profile Stats
+
+on:
+  schedule:
+    # Sync stats daily at midnight UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync activity data
+        run: |
+          mkdir -p .stats
+          
+          # Update last sync timestamp
+          echo "last_sync: $(date -u +%Y-%m-%dT%H:%M:%SZ)" > .stats/metadata.yml
+          echo "sync_count: $(cat .stats/count 2>/dev/null || echo 0)" >> .stats/metadata.yml
+          
+          # Increment sync counter
+          COUNT=$(cat .stats/count 2>/dev/null || echo 0)
+          echo $((COUNT + 1)) > .stats/count
+
+      - name: Push updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .stats/
+          git commit -m "📊 Sync profile stats" || echo "No changes"
+          git push
