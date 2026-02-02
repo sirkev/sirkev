@@ -18,29 +18,29 @@
 
 ## 🧑‍💻 About Me
 
-```python
-class Kevin:
-    def __init__(self):
-        self.name = "Kevin O. Amboko"
-        self.role = "Full-Stack Developer"
-        self.location = "Nairobi, Kenya 🇰🇪"
-        self.company = "@SynchronizeLabs"
-        
-    def currently_building(self):
-        return "WashHub - Laundry SaaS for East Africa"
-    
-    def learning(self):
-        return ["Kernel Development 🐧", "AI/ML 🤖", "Quantum Computing ⚛️"]
-    
-    def interests(self):
-        return [
-            "Linux internals & OS development",
-            "Firmware & embedded systems",
-            "Android GSI tinkering",
-            "Low-level programming",
-            "Making apps happen 🚀"
-        ]
-```
+<table>
+<tr>
+<td width="50%">
+
+### 👨‍💻 Who I Am
+- 🚀 **Full-Stack Developer** from Nairobi, Kenya
+- 💼 Founder at **@SynchronizeLabs**
+- 🔭 Currently building **[WashHub](https://washhub.store)** – Laundry SaaS for East Africa
+- 💬 Ask me about **Flutter, FastAPI, Infrastructure**
+
+</td>
+<td width="50%">
+
+### 🧠 What I'm Into
+- 🐧 Linux internals & Kernel development
+- ⚛️ Quantum computing
+- 🔧 Firmware & embedded systems
+- 📱 Android GSI tinkering
+- 🤖 AI/ML & low-level programming
+
+</td>
+</tr>
+</table>
 
 ---
 
